@@ -14,7 +14,7 @@ fi
 
 set -ex
 
-tmpdir=`mktemp -d 2>/dev/null || mktemp -d -t 'icontmp'`
+tmpdir='./icontmp/'
 
 for i in 1024 512 310 256 192 180 152 150 144 128 120 114 96 76 72 70 64 60 57 48 36 32 24 16
 do

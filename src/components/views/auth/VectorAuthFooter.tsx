@@ -22,7 +22,7 @@ import { _t } from "matrix-react-sdk/src/languageHandler";
 const VectorAuthFooter = (): ReactElement => {
     const brandingConfig = SdkConfig.getObject("branding");
     const links = brandingConfig?.get("auth_footer_links") ?? [
-        { text: "Blog", url: "https://element.io/blog" },
+        { text: "Blog", url: "https://yoteqi.com/blog" },
         { text: "Twitter", url: "https://twitter.com/element_hq" },
         { text: "GitHub", url: "https://github.com/vector-im/element-web" },
     ];
