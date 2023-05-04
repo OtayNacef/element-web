@@ -27,21 +27,7 @@ exports[`<VectorAuthPage /> should match snapshot 1`] = `
         rel="noreferrer noopener"
         target="_blank"
       >
-        Blog
-      </a>
-      <a
-        href="https://twitter.com/element_hq"
-        rel="noreferrer noopener"
-        target="_blank"
-      >
-        Twitter
-      </a>
-      <a
-        href="https://github.com/vector-im/element-web"
-        rel="noreferrer noopener"
-        target="_blank"
-      >
-        GitHub
+        Yoteqi
       </a>
       <a
         href="https://matrix.org"
