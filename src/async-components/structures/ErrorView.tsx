@@ -47,8 +47,8 @@ const ErrorView: React.FC<IProps> = ({ title, messages }) => {
                 </div>
                 <div className="mx_HomePage_row mx_Center mx_Spacer">
                     <p className="mx_Spacer">
-                        <a href="https://yoteqi.com" target="_blank" className="mx_FooterLink">
-                            {_t("Go to yoteqi.com")}
+                        <a href="https://chat.yoteqi.com" target="_blank" className="mx_FooterLink">
+                            {_t("Go to Yoteqi Chat")}
                         </a>
                     </p>
                 </div>

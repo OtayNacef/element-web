@@ -97,7 +97,7 @@ async function initPage(): Promise<void> {
 
     if (hsUrl !== "https://matrix.org/") {
         (document.getElementById("configure_element_button") as HTMLAnchorElement).href =
-            "https://mobile.yoteqi.com?hs_url=" + encodeURIComponent(hsUrl) + "&is_url=" + encodeURIComponent(isUrl);
+            "https://chat.yoteqi.com?hs_url=" + encodeURIComponent(hsUrl) + "&is_url=" + encodeURIComponent(isUrl);
         document.getElementById("step1_heading").innerHTML = "1: Install the app";
         document.getElementById("step2_container").style.display = "block";
         document.getElementById("hs_url").innerText = hsUrl;
